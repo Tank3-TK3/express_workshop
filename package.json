@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Tank3-TK3/express_workshop#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
   }
