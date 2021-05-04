@@ -31,7 +31,7 @@ user.post('/login', async (req, res, next) => {
             return res.status(200).json({code: 200, message: token});
         } else
         {
-            return res.status(200).json({code: 200, message: "Usuario y/o contraseña incorrectos"});
+            return res.status(200).json({code: 401, message: "Usuario y/o contraseña incorrectos"});
         }
     }
     return res.status(500).json({code:500, message: "Campos incompletos"});
