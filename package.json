@@ -4,7 +4,7 @@
   "description": "this is a project for the node.js workshop",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index",
+    "start": "npm index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
